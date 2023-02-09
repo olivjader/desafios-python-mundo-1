@@ -1,0 +1,5 @@
+print('Olá, obrigado(a) por usar nosso aluguel de carros!')
+dias = int(input('Quantos dias durou o aluguel? '))
+km = float(input('Quantos Km percorridos? '))
+vt = (dias * 60) + (km * 0.15)
+print('O valor total ficou em R${:.2f}'.format(vt))

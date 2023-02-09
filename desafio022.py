@@ -1,0 +1,7 @@
+nome = input('Qual o seu nome completo? ')
+dividido = nome.split()
+unido = ''.join(dividido)
+print(nome.upper())
+print(nome.lower())
+print('O seu nome possui {} letras'.format(len(unido)))
+print('O seu preimeiro nome possui {} letras'.format(len(dividido[0])))
